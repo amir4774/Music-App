@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.logo {
+    margin-top: -70px;
+    animation: logo-animation infinite 5s ease;
+}
+
+@keyframes logo-animation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.07);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
