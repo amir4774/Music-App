@@ -1,8 +1,8 @@
 "use client";
 import { FormEvent, useState } from "react";
-import axios from "axios";
 import { FaSearch } from "react-icons/fa";
 import Loading from "./Loading";
+import { createAxiosInstance } from "./Axios";
 
 const SearchSongs = ({
   getSong,
@@ -28,9 +28,7 @@ const SearchSongs = ({
       // Loading
       setLoading(true);
       // Get Data
-      const res = await axios.get(
-        `https://itunes.apple.com/search?entity=song&limit=10&term=${songName}`
-      );
+      const res = await createAxiosInstance(`search?entity=song&limit=10&term=${songName}`);
       const data = await res.data;
 
       if (data.resultCount <= 0) {
