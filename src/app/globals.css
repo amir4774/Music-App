@@ -2,21 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'mooli';
+  src: url('../../public/Mooli-Regular.ttf');
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .logo {
-    margin-top: -70px;
-    animation: logo-animation infinite 5s ease;
+  margin-top: -70px;
+  animation: logo-animation infinite 5s ease;
+}
+
+.home-page-title {
+  font-family: 'mooli';
 }
 
 @keyframes logo-animation {
-    0% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
+  }
 
-    50% {
-        transform: scale(1.07);
-    }
+  50% {
+    transform: scale(1.07);
+  }
 
-    100% {
-        transform: scale(1);
-    }
+  100% {
+    transform: scale(1);
+  }
 }
