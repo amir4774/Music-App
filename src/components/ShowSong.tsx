@@ -12,13 +12,13 @@ const ShowSong = ({ song }: { song: SongProps }) => {
       </div>
       <div className="ml-5 mb-4">
         <h1 className="text-lg">
-          {song.trackName.length > 40
-            ? `${song.trackName.slice(0, 40)} ...`
+          {song.trackName.length > 34
+            ? `${song.trackName.slice(0, 34)} ...`
             : song.trackName}
         </h1>
         <h3 className="opacity-50 text-white text-sm font-normal">
-          {song.artistName.length > 50
-            ? `${song.artistName.slice(0, 50)} ...`
+          {song.artistName.length > 40
+            ? `${song.artistName.slice(0, 40)} ...`
             : song.artistName}
         </h3>
       </div>

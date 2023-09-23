@@ -84,7 +84,7 @@ const Music = ({ src }: { src: string }) => {
         </p>
       </div>
 
-      <div className="text-center">
+      <div className="text-center rounded-full">
         <ReactAudioPlayer src={src} ref={songRef} />
         <button
           className="btn btn-lg p-5 text-xl rounded-full bg-gradient-to-tr from-playBackgroundFirst to-playBackgroundSecond text-white"
