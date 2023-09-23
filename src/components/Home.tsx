@@ -10,7 +10,9 @@ const Home = () => {
       </div>
 
       <div className="text-white text-center">
-        <h1 className="text-5xl bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text text-transparent home-page-title">Getting Started!</h1>
+        <h1 className="text-5xl bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text text-transparent animate-pulse home-page-title">
+          Getting Started!
+        </h1>
         <Link href="/search">
           <button
             type="button"

@@ -41,7 +41,7 @@ const Song = ({ song }: { song: SongProps }) => {
           <a href={song.previewUrl}>
             <button className="bg-backColor p-3 flex items-center rounded hover:opacity-90">
               <span className="hidden sm:block">Download</span>
-              <FaDownload className="ml-0 sm:ml-2" />
+              <FaDownload className="ml-0 animate-bounce sm:ml-2" />
             </button>
           </a>
         </div>

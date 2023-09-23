@@ -62,17 +62,17 @@ const Music = ({ src }: { src: string }) => {
   return (
     <>
       <div
-        className="h-6 mx-auto mt-5 mb-2 rounded bg-white w-3/4 hover:cursor-pointer sm:w-1/2"
+        className="h-2 w-3/4 mx-auto mt-6 mb-2 rounded bg-white hover:cursor-pointer sm:w-1/2"
         ref={progressBarRef}
         onClick={(e) => moveSong(e)}
       >
         <div
-          className="w-0 h-6 bg-cardBackgroundSecond rounded"
+          className="w-0 h-full bg-cardBackgroundSecond rounded relative"
           ref={progressRef}
         ></div>
       </div>
 
-      <div className="flex justify-between w-3/4 mx-auto sm:w-1/2">
+      <div className="flex justify-between mx-auto w-3/4 sm:w-1/2">
         <p className="text-cardBackgroundSecond">
           00:
           {currentTime > 10
