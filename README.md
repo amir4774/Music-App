@@ -1,6 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Overview
+On the home page, click the button to go to the search section. There you can search for your song and choose the desired song from the ten results shown. Then you will go to the page of the song and you can listen to its preview and download it if you like it.
+The styling of this project was done by Tilwind.
+
+## API Used
+https://itunes.apple.com
 
 ## Getting Started
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
