@@ -1,6 +1,7 @@
 # Project Overview
 On the home page, click the button to go to the search section. There you can search for your song and choose the desired song from the ten results shown. Then you will go to the page of the song and you can listen to its preview and download it if you like it.
-The styling of this project was done by Tilwind.
+
+The styling of this project was done by Tailwindcss.
 
 ## API Used
 https://itunes.apple.com
